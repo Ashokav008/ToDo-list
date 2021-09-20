@@ -33,10 +33,7 @@ function refreshList() {
     jsonArray.forEach((value, index) => {
         html += ` 
         <tr>
-        <th scope="row">${index+1}
-     
-      
-      
+        <th scope="row">${index+1}</th>
         <td>${value[0]}</td>
         <td>${value[1]}</td>
         <td><button type="button" class="btn btn-sm btn-warning" onclick="deleteItem(${index})">Delete</button></td>
